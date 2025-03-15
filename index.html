@@ -17,6 +17,18 @@
     </style>
 </head>
 <body>
-    Instagrocers
+    <h1 id="page-title">Instagrocers</h1>
+    
+
+    <script>
+        // Get the current page URL
+        const path = window.location.pathname;
+
+        // If the URL contains "/payment-success", change the content
+        if (path.includes("payment-success")) {
+            document.getElementById("page-title").innerText = "Payment Successful!";
+            document.getElementById("message").innerText = "Thank you for your purchase.";
+        }
+    </script>
 </body>
 </html>
