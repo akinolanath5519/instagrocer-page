@@ -1,4 +1,6 @@
 {
-    "rewrites": [{ "source": "/", "destination": "/index.html" }]
-  }
-  
+  "rewrites": [
+    { "source": "/payment-success", "destination": "/" },
+    { "source": "/payment-failed", "destination": "/" }
+  ]
+}
